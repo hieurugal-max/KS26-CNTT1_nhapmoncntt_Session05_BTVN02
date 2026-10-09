@@ -1,0 +1,14 @@
+Hoàn thiện lệnh bằng PowerShell
+Hệ điều hành sử dụng: Windows – PowerShell
+
+powershell
+mkdir drink_module
+cd drink_module
+New-Item coffee.txt, tea.txt -ItemType File
+
+Giải thích :
+mkdir drink_module: Tạo thư mục có tên drink_module.
+
+cd drink_module: Di chuyển vào thư mục drink_module vừa tạo.
+
+New-Item coffee.txt, tea.txt -ItemType File: Tạo đồng thời hai file trống coffee.txt và tea.txt.
